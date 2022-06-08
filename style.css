@@ -1,0 +1,131 @@
+nav {
+    margin:auto;
+    text-align: center;
+    width: 100%;
+    font-family: arial;
+}
+
+nav ul {
+    padding: 0%;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    width: 100%;
+ }
+
+nav ul li{
+    float:left;
+}
+
+nav ul li:hover{
+background:#eee;
+}
+
+nav ul li:hover a{
+color:#000;
+}
+
+nav ul li a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+
+.header{
+    min-height: 5%;
+    text-align: center;
+}
+.logo img{
+    width: 20%;
+    border-radius: 50%;
+}
+.thumbnail{
+    background-color: white;
+    text-align: center;
+    padding: 1%;
+    width: 25%;
+    margin: 1%;
+    float: left;
+}
+.thumbnail img{
+    width: 100%;
+}
+.jumbotron{
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    padding: 2% 4%;
+    box-sizing: border-box;
+    text-align: center;
+    color: #747372;
+    background-color: #aaa;
+}
+.jumbotron{
+    background-color: #eee;
+    background-size: cover;
+    position: relative;
+}
+.content{
+    background-color: #eee;
+    min-height: 20%;
+    padding-left: 15%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    overflow: auto;
+    text-align: center;
+    
+
+}
+hr{
+    width: 20%;
+    border-top: 100% solid #eee;
+}
+.contact{
+    background-color: white;
+    text-align: center;
+    padding-top: 1%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 1%;
+
+}
+.contact img{
+    width: 3%;
+    padding-top: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 1%;
+
+}
+.profil{
+    background-color: #ddd;
+    min-height: 20%;
+    padding-left: 7%;
+    padding-right: 25%;
+    padding-bottom: 0%;
+    overflow: auto;
+    text-align: left;
+
+}
+.about{
+    background-color: #ddd;
+    min-height: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 10%;
+    overflow: auto;
+    text-align: center;
+    
+}
+.isi{
+    text-align: left;
+    padding: 1%;
+    width: 45%;
+    margin: 1%;
+    float: left;
+}
+.port{
+    background-color: #eee;
+    text-align: center;
+    overflow: auto;
+}
